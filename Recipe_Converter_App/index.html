@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post">
+  <input name="task" placeholder="New Task" required>
+  <button type="submit">Add</button>
+</form>
+<ul>
+  {% for task in todos %}
+    <li>{{ task }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
