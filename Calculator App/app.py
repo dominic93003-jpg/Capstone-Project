@@ -1,4 +1,4 @@
-import Flask, render_template, request
+from flask import Flask; importrender_template; request
 import operator import math
 
 app = Flask(__name__)
