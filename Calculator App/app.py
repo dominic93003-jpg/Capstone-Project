@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+import Flask, render_template, request
 import operator import math
 
 app = Flask(__name__)
